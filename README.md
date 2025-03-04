@@ -17,7 +17,7 @@
 ## Установка
 
 ```bash
-pip install simple_chat_structure
+pip install simple-chat-structure
 ```
 
 ## Требования

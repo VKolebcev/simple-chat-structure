@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="simple-chat-structure",
-    version="0.1.0",
+    version="0.1.2",
     author="Vladislav K",
     author_email="vkolebcev@yandex.ru",
     description="Библиотека для управления структурой чатов и сообщений",
