@@ -31,7 +31,7 @@ pip install simple_chat_structure
 #### Создание сообщений
 
 ```python
-from simple_chat_structure.chat import Message, MessageRole
+from simple_chat_structure import Message, MessageRole
 
 # Создание сообщения с ролью пользователя
 user_message = Message(MessageRole.USER, "Привет, как дела?")
@@ -54,7 +54,7 @@ print(user_message.timestamp)  # datetime.datetime объект
 #### Работа с историей сообщений
 
 ```python
-from simple_chat_structure.chat import MessageHistory, MessageRole
+from simple_chat_structure import MessageHistory, MessageRole
 
 # Создание истории сообщений
 history = MessageHistory()
@@ -90,7 +90,7 @@ limited_history = MessageHistory(max_messages=10)
 #### Менеджер историй для нескольких пользователей
 
 ```python
-from simple_chat_structure.chat import MessageHistoryManager, MessageRole
+from simple_chat_structure import MessageHistoryManager, MessageRole
 
 # Создание менеджера историй
 manager = MessageHistoryManager(default_max_messages=50)
@@ -176,21 +176,3 @@ manager.clear_all()
 - `clear_all()` - Очистка всех историй
 - `to_json()` - Преобразование в JSON-строку
 - `from_json(json_data)` - Загрузка из JSON-строки
-
-## Лицензия
-
-Этот проект распространяется под лицензией MIT. Подробности в файле [LICENSE](LICENSE).
-
-## Внести вклад
-
-Мы приветствуем вклад в развитие библиотеки! Если вы нашли ошибку или хотите предложить улучшение:
-
-1. Форкните репозиторий
-2. Создайте ветку для вашей функции (`git checkout -b feature/amazing-feature`)
-3. Закоммитьте изменения (`git commit -m 'Add some amazing feature'`)
-4. Отправьте изменения в ваш форк (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
-
-## Контакты
-
-Страница проекта: [https://github.com/VKolebcev/simple_chat_structure](https://github.com/VKolebcev/simple_chat_structure)
