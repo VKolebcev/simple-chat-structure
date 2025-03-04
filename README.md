@@ -2,7 +2,7 @@
 
 Библиотека для управления структурой чатов и сообщений в диалоговых системах. Простой и удобный инструмент для работы с историей сообщений в чатах, ботах и других приложениях с диалоговым интерфейсом.
 
-[![PyPI version](https://badge.fury.io/py/simple_chat_structure.svg)](https://badge.fury.io/py/simple_chat_structure)
+[![PyPI version](https://badge.fury.io/py/simple-chat-structure.svg)](https://badge.fury.io/py/simple-chat-structure)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Возможности
